@@ -28,3 +28,4 @@
 20. [wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm)
 21. [7-Zip](http://www.7-zip.org/)
 22. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
+23. [youtube-dl](https://rg3.github.io/youtube-dl/)

@@ -92,3 +92,17 @@ get_jq() {
   sha256sum -c $installer.sha256
   popd > /dev/null
 }
+
+get_youtube_dl() {
+  mkdir -p youtube-dl
+  curl -o youtube-dl/release.json https://api.github.com/repos/rg3/youtube-dl/releases/latest
+  install_url=$(cat youtube-dl/release.json | jq -r '[.assets[]|.browser_download_url][]|select(.|endswith("exe"))')
+  installer=$(basename $install_url)
+  shasum_url=$(cat youtube-dl/release.json | jq -r '[.assets[]|.browser_download_url][]|select(.|endswith("256SUMS"))')
+  curl -s -L $shasum_url \
+      | grep '.exe' > youtube-dl/$installer.sha256
+  curl -o youtube-dl/$installer -L $install_url
+  pushd youtube-dl > /dev/null
+  sha256sum -c $installer.sha256
+  popd > /dev/null
+}
