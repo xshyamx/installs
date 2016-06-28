@@ -29,3 +29,6 @@
 21. [7-Zip](http://www.7-zip.org/)
 22. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
 23. [youtube-dl](https://rg3.github.io/youtube-dl/)
+24. [Redis](http://redis.io/)
+25. [Neo4j](https://neo4j.com/download/other-releases/)
+26. [MongoDB](https://www.mongodb.com/download-center#community)

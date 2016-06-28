@@ -106,3 +106,14 @@ get_youtube_dl() {
   sha256sum -c $installer.sha256
   popd > /dev/null
 }
+
+get_redis() {
+  mkdir -p redis
+  curl -o redis/release.json https://api.github.com/repos/MSOpenTech/redis/releases/latest
+  install_url=$(cat redis/release.json | jq -r '[.assets[]|.browser_download_url][]|select(.|endswith("zip"))')
+  installer=$(basename $install_url)
+  curl -o redis/$installer -L $install_url
+  pushd redis > /dev/null
+  sha256sum -c $installer.sha256
+  popd > /dev/null
+}
