@@ -40,6 +40,13 @@ get_virtualbox() {
   sha256sum -c $installer.sha256
   popd > /dev/null
 }
+get_inkscape() {
+  mkdir inkscape
+  download_page=https://inkscape.org/en/download/windows/
+  install_url=$(curl $download_page | grep 'win64.7z' | sed -e 's/^.*href="//' -e 's/".*$//')
+  installer=$(basename $install_url)
+  curl -o inkscape/$installer $install_url
+}
 
 get_docker_toolbox() {
   mkdir -p docker

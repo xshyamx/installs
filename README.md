@@ -1,4 +1,4 @@
-# Installs #
+ Installs #
 
 1. [Emacs](https://sourceforge.net/projects/emacsbinw64/)
 2. Fonts
@@ -24,6 +24,7 @@
 16. [TreeSize Free](http://www.jam-software.com/treesize_free/)
 17. [IrfanView](http://www.irfanview.com/)
 18. [Gimp](https://www.gimp.org/downloads/)
+19. [Inkscape](https://inkscape.org/en/download/windows/)
 19. [GraphViz - Dot Command Line](http://www.graphviz.org/Download.php)
 20. [wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm)
 21. [7-Zip](http://www.7-zip.org/)
