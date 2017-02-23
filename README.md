@@ -11,7 +11,8 @@
 4. [Docker Toolbox](https://www.docker.com/docker-toolbox)
 5. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 6. [NodeJS](https://nodejs.org/en/download/)  
-   See [node-gyp](https://github.com/nodejs/node-gyp) for compiling native libraries for npm
+   See [node-gyp](https://github.com/nodejs/node-gyp) for compiling native libraries for npm  
+   `npm i -g --production windows-build-tools`
 7. [Go Programming Language](https://golang.org/dl/)
 8. [Git for Windows](https://git-scm.com/download/)
 9. [Vagrant](http://vagrantup.com/)
@@ -25,11 +26,26 @@
 17. [IrfanView](http://www.irfanview.com/)
 18. [Gimp](https://www.gimp.org/downloads/)
 19. [Inkscape](https://inkscape.org/en/download/windows/)
-19. [GraphViz - Dot Command Line](http://www.graphviz.org/Download.php)
-20. [wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm)
-21. [7-Zip](http://www.7-zip.org/)
-22. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
-23. [youtube-dl](https://rg3.github.io/youtube-dl/)
-24. [Redis](http://redis.io/)
-25. [Neo4j](https://neo4j.com/download/other-releases/)
-26. [MongoDB](https://www.mongodb.com/download-center#community)
+20. [GraphViz - Dot Command Line](http://www.graphviz.org/Download.php)
+21. [wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm)
+22. [7-Zip](http://www.7-zip.org/)
+23. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
+24. [youtube-dl](https://rg3.github.io/youtube-dl/)
+25. [Redis](http://redis.io/)
+26. [Neo4j](https://neo4j.com/download/other-releases/)
+27. [MongoDB](https://www.mongodb.com/download-center#community)
+28. [ConEmu](http://conemu.github.io/en/index.html)  
+    Tabbed command line support for git-bash
+29. [Figlet in Go for Windows](https://github.com/lukesampson/figlet)  
+    ASCII art from the command line
+30. [CamStudio](http://camstudio.org/)  
+    OpenSource desktop screen recorder
+31. [Chocolatey](https://chocolatey.org/)  
+    OpenSource package manager for windows. Add the following lines to
+    the installer to use the proxy and install in a custom location
+
+        $env:chocolateyProxyLocation = 'http://localhost:3128'
+        $env:ChocolateyInstall = "e:\software\chocolatey"
+
+32. [ImageMagik](https://www.imagemagick.org/script/download.php)  
+    For the awesome convert tool to create pdfs from images and vice-versa
