@@ -1,4 +1,4 @@
- Installs #
+# Installs #
 
 1. [Emacs](https://sourceforge.net/projects/emacsbinw64/)
 2. Fonts
