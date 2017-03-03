@@ -17,7 +17,7 @@ get_nodejs() {
 get_terraform() {
   mkdir -p terraform
   prefix=https://releases.hashicorp.com/terraform
-  terraform_version=$(curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | jq -r '.name|ltrimstr("v")')
+  terraform_version=$(curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | jq -r '.tag_name|ltrimstr("v")')
   installer=terraform_${terraform_version}_windows_amd64.zip
   curl -o terraform/$installer https://releases.hashicorp.com/terraform/${terraform_version}/$installer
   curl -s $prefix/${terraform_version}/terraform_${terraform_version}_SHA256SUMS \
@@ -91,9 +91,9 @@ get_jq() {
   curl -o jq/release.json https://api.github.com/repos/stedolan/jq/releases/latest
   jq_version=$(cat jq/release.json | jq -r '.name|ltrimstr("jq ")')
   install_url=$(cat jq/release.json | jq -r '.assets[].browser_download_url' | grep 'win64.exe')
+  installer=$(basename $install_url)
   curl -s https://raw.githubusercontent.com/stedolan/jq/master/sig/v$jq_version/sha256sum.txt \
       | grep 'win64.exe' > jq/$installer.sha256
-  installer=$(basename $install_url)
   curl -o jq/$installer -L $install_url
   pushd jq > /dev/null
   sha256sum -c $installer.sha256
