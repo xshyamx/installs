@@ -1,6 +1,21 @@
 # Installs #
 
 1. [Emacs](https://sourceforge.net/projects/emacsbinw64/)
+   1. [yasnippet](https://github.com/joaotavora/yasnippet)
+   2. [yasnippet-snippets](https://github.com/AndreaCrotti/yasnippet-snippets)
+   3. [go-mode](https://github.com/dominikh/go-mode.el)
+       - Install [goimports](https://github.com/bradfitz/goimports)
+       - Install [godef](github.com/rogpeppe/godef)
+       - Setup to use these tools
+         ``` elisp
+         (setq go-home "/usr/local/go")
+         (setq go-path (expand-file-name "go" (getenv "HOME")))
+         (setq godef-command (expand-file-name "bin/godef" go-path))
+         (setq gofmt-command (expand-file-name "bin/goimports" go-path))
+         (setq godoc-command (expand-file-name "bin/godoc" go-home))
+         (setq go-command (expand-file-name "bin/go" go-home))
+
+         ```
 2. Fonts
    1. [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html)
    2. [Office Code Pro](https://github.com/nathco/Office-Code-Pro)
@@ -49,3 +64,4 @@
 
 32. [ImageMagik](https://www.imagemagick.org/script/download.php)  
     For the awesome convert tool to create pdfs from images and vice-versa
+
