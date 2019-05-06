@@ -65,4 +65,4 @@
 
 32. [ImageMagik](https://www.imagemagick.org/script/download.php)  
     For the awesome convert tool to create pdfs from images and vice-versa
-
+33. ~~[KeepassX](https://www.keepassx.org/)~~ is discontinuted so move to [KeePassXC](https://keepassxc.org)
