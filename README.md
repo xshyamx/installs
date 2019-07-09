@@ -25,6 +25,7 @@
    6. [Overpass Mono](http://overpassfont.org/)
 3. [Terraform](https://terraform.io)
 4. [Docker Toolbox](https://www.docker.com/docker-toolbox)
+   1. [Docker Credential Helpers](https://github.com/docker/docker-credential-helpers)
 5. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 6. [NodeJS](https://nodejs.org/en/download/)  
    See [node-gyp](https://github.com/nodejs/node-gyp) for compiling native libraries for npm  
