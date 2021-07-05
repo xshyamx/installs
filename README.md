@@ -31,6 +31,7 @@
    See [node-gyp](https://github.com/nodejs/node-gyp) for compiling native libraries for npm  
    `npm i -g --production windows-build-tools`
 7. [Go Programming Language](https://golang.org/dl/)
+   1. [golang-migrate](https://github.com/golang-migrate/migrate) for managing db migrations
 8. [Git for Windows](https://git-scm.com/download/)
 9. [Vagrant](http://vagrantup.com/)
 10. [jq - Command Line JSON Processor](https://stedolan.github.io/jq/)
