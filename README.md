@@ -23,6 +23,7 @@
    4. [Bitstream Vera Sans Mono](http://www.dafont.com/bitstream-vera-mono.font)
    5. [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
    6. [Overpass Mono](http://overpassfont.org/)
+   7. [Fira Code](https://github.com/tonsky/FiraCode)
 3. [Terraform](https://terraform.io)
 4. [Docker Toolbox](https://www.docker.com/docker-toolbox)
    1. [Docker Credential Helpers](https://github.com/docker/docker-credential-helpers)
