@@ -106,6 +106,8 @@ Windows binaries where not available so, you had to download from ~~[here](https
 
 	For the awesome convert tool to create pdfs from images and vice-versa
 
+6. [drawio](https://github.com/jgraph/drawio-desktop)
+
 ### VMs/Containers/Networking ###
 
 1. [Terraform](https://terraform.io)
