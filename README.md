@@ -121,6 +121,30 @@ Windows binaries where not available so, you had to download from ~~[here](https
 8. [nmap](https://nmap.org/) Port scanning utility
 9. [WireShark](https://www.wireshark.org/#download)
 
+## Browser Extensions ##
+
+### Firefox ###
+- [Ghostery – Privacy Ad Blocker](https://addons.mozilla.org/en-US/firefox/addon/ghostery/)
+- [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+- [Snooze Tabs](https://addons.mozilla.org/en-US/firefox/addon/snoozetabs)
+- [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+- [Redux DevTools](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+- ~~[org-link](https://addons.mozilla.org/en-US/firefox/addon/org-link/)~~ Does not work :(
+
+### Chrome ###
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+
+### Edge ###
+- [React Developer Tools](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil)
+
+
+## OSX Only ##
+
+1. [Homebrew](https://brew.sh)
+2. [Secretive](https://github.com/maxgoedjen/secretive) - storing and managing SSH keys in the Secure Enclave
+
 ## Windows Only ##
 
 1. [Git for Windows](https://git-scm.com/download/)
