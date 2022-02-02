@@ -43,11 +43,8 @@ Windows binaries where not available so, you had to download from ~~[here](https
 ### Shell Utilities ###
 
 1. [sdk](https://sdkman.io)
-
 	CLI tool for managing several SDK versions like maven, gradle, and even JDKs
-
 2. [direnv](https://github.com/direnv/direnv/)
-
 	Change environment variables per directory by adding `.envrc` eg.
 
 	 ```sh
@@ -55,11 +52,8 @@ Windows binaries where not available so, you had to download from ~~[here](https
 	 ```
 
 3. [nvm](https://github.com/nvm-sh/nvm)
-
 	Manage multiple [NodeJS](https://nodejs.org/en/) versions
-
 4. [ark](https://github.com/alexellis/arkade)
-
 	CLI tool to install commonly used kubernetes CLI utilities as well as applications
 
 	```sh
@@ -76,7 +70,6 @@ Windows binaries where not available so, you had to download from ~~[here](https
 15. [colordiff](https://www.colordiff.org/) diff with colors
 16. [fzf](https://github.com/junegunn/fzf) Command line fuzzy finder
 17. [stow](https://www.gnu.org/software/stow/) symlink manager
-
 
 ### Language/Data Runtimes ###
 
@@ -157,19 +150,12 @@ Windows binaries where not available so, you had to download from ~~[here](https
 8. [7-Zip](http://www.7-zip.org/)
 9. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
 10. [ConEmu](http://conemu.github.io/en/index.html) (or alternatively [cmdr](https://cmder.net/))
-
     Tabbed command line support for git-bash
-
 11. [Figlet in Go for Windows](https://github.com/lukesampson/figlet)
-
     ASCII art from the command line
-
 12. [CamStudio](http://camstudio.org/)
-
     OpenSource desktop screen recorder
-
 13. [Chocolatey](https://chocolatey.org/)
-
     OpenSource package manager for windows. Add the following lines to
     the installer to use the proxy and install in a custom location
 
