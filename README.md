@@ -130,7 +130,7 @@ Windows binaries where not available so, you had to download from ~~[here](https
 - [Snooze Tabs](https://addons.mozilla.org/en-US/firefox/addon/snoozetabs)
 - [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 - [Redux DevTools](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
-- ~~[org-link](https://addons.mozilla.org/en-US/firefox/addon/org-link/)~~ Does not work :(
+- [org-link](https://addons.mozilla.org/en-US/firefox/addon/org-link/)
 
 ### Chrome ###
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
