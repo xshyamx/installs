@@ -12,13 +12,16 @@
 
 ### Fonts ###
 
+- Big list of programming fonts https://www.programmingfonts.org/
+- Find your favourite programming font gamified https://www.codingfont.com/
+
 1. [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html)
-2. [Office Code Pro](https://github.com/nathco/Office-Code-Pro)
-3. [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
-4. [Bitstream Vera Sans Mono](http://www.dafont.com/bitstream-vera-mono.font)
-5. [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
-6. [Overpass Mono](http://overpassfont.org/)
-7. [Fira Code](https://github.com/tonsky/FiraCode)
+2. [Fira Code](https://github.com/tonsky/FiraCode)
+3. [Office Code Pro](https://github.com/nathco/Office-Code-Pro)
+4. [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
+5. [Bitstream Vera Sans Mono](http://www.dafont.com/bitstream-vera-mono.font)
+6. [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
+7. [Overpass Mono](http://overpassfont.org/)
 
 ### Emacs ###
 
