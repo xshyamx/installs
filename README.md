@@ -15,13 +15,13 @@
 - Big list of programming fonts https://www.programmingfonts.org/
 - Find your favourite programming font gamified https://www.codingfont.com/
 
-1. [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html)
-2. [Fira Code](https://github.com/tonsky/FiraCode)
-3. [Office Code Pro](https://github.com/nathco/Office-Code-Pro)
-4. [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
-5. [Bitstream Vera Sans Mono](http://www.dafont.com/bitstream-vera-mono.font)
-6. [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
-7. [Overpass Mono](http://overpassfont.org/)
+1. [Bitstream Vera Sans Mono](http://www.dafont.com/bitstream-vera-mono.font)
+2. [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page)
+3. [Fira Code](https://github.com/tonsky/FiraCode)
+4. [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html)
+5. [Office Code Pro](https://github.com/nathco/Office-Code-Pro)
+6. [Overpass Mono](http://overpassfont.org/)
+7. [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
 
 ### Emacs ###
 
@@ -45,18 +45,7 @@ Windows binaries where not available so, you had to download from ~~[here](https
 
 ### Shell Utilities ###
 
-1. [sdk](https://sdkman.io)
-	CLI tool for managing several SDK versions like maven, gradle, and even JDKs
-2. [direnv](https://github.com/direnv/direnv/)
-	Change environment variables per directory by adding `.envrc` eg.
-
-	 ```sh
-	 export JAVA_HOME=$JAVA8_HOME
-	 ```
-
-3. [nvm](https://github.com/nvm-sh/nvm)
-	Manage multiple [NodeJS](https://nodejs.org/en/) versions
-4. [ark](https://github.com/alexellis/arkade)
+1. [ark](https://github.com/alexellis/arkade)
 	CLI tool to install commonly used kubernetes CLI utilities as well as applications
 
 	```sh
@@ -66,17 +55,32 @@ Windows binaries where not available so, you had to download from ~~[here](https
 	echo 'export PATH=$PATH:$HOME/.arkade/bin' >> ~/.bashrc
  	```
 
-11. [jq - Command Line JSON Processor](https://stedolan.github.io/jq/)
-12. [yq - Command Line YAML Processor](https://github.com/mikefarah/yq)
-13. [bat](https://github.com/sharkdp/bat) cat with syntax highlighting
-14. [caddy](https://caddyserver.com/) http server
-15. [colordiff](https://www.colordiff.org/) diff with colors
-16. [fzf](https://github.com/junegunn/fzf) Command line fuzzy finder
-17. [stow](https://www.gnu.org/software/stow/) symlink manager
+2. [bat](https://github.com/sharkdp/bat) cat with syntax highlighting
+3. [caddy](https://caddyserver.com/) http server
+4. [colordiff](https://www.colordiff.org/) diff with colors
+5. [direnv](https://github.com/direnv/direnv/)
+	Change environment variables per directory by adding `.envrc` eg.
+
+	 ```sh
+	 export JAVA_HOME=$JAVA8_HOME
+	 ```
+
+6. [fzf](https://github.com/junegunn/fzf) Command line fuzzy finder
+7. [jq - Command Line JSON Processor](https://stedolan.github.io/jq/)
+8. [nvm](https://github.com/nvm-sh/nvm)
+	Manage multiple [NodeJS](https://nodejs.org/en/) versions
+9. [sdk](https://sdkman.io)
+	CLI tool for managing several SDK versions like maven, gradle, and even JDKs
+10. [stow](https://www.gnu.org/software/stow/) symlink manager
+11. [yq - Command Line YAML Processor](https://github.com/mikefarah/yq)
 
 ### Language/Data Runtimes ###
 
-1. [NodeJS](https://nodejs.org/en/download/)
+1. [Go Programming Language](https://golang.org/dl/)
+   1. [golang-migrate](https://github.com/golang-migrate/migrate) for managing db migrations
+2. [MongoDB](https://www.mongodb.com/download-center#community)
+3. [Neo4j](https://neo4j.com/download/other-releases/)
+4. [NodeJS](https://nodejs.org/en/download/)
 
    See [node-gyp](https://github.com/nodejs/node-gyp) for compiling native libraries for npm
 
@@ -84,13 +88,8 @@ Windows binaries where not available so, you had to download from ~~[here](https
    npm i -g --production windows-build-tools
    ```
 
-2. [Go Programming Language](https://golang.org/dl/)
-   1. [golang-migrate](https://github.com/golang-migrate/migrate) for managing db migrations
-
-3. [Python](https://www.python.org/downloads/)
-4. [Redis](http://redis.io/)
-5. [Neo4j](https://neo4j.com/download/other-releases/)
-6. [MongoDB](https://www.mongodb.com/download-center#community)
+5. [Python](https://www.python.org/downloads/)
+6. [Redis](http://redis.io/)
 
 ### Graphics ###
 
@@ -106,26 +105,26 @@ Windows binaries where not available so, you had to download from ~~[here](https
 
 ### VMs/Containers/Networking ###
 
-1. [Terraform](https://terraform.io)
-2. [Docker Toolbox](https://www.docker.com/docker-toolbox)
+1. [Docker Toolbox](https://www.docker.com/docker-toolbox)
    1. [Docker Credential Helpers](https://github.com/docker/docker-credential-helpers)
-3. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-4. [Minikube](https://minikube.sigs.k8s.io/docs/)
-5. [Vagrant](http://vagrantup.com/)
-6. [youtube-dl](https://rg3.github.io/youtube-dl/)
+2. [Minikube](https://minikube.sigs.k8s.io/docs/)
+3. [Terraform](https://terraform.io)
+4. [Vagrant](http://vagrantup.com/)
+5. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+6. [WireShark](https://www.wireshark.org/#download)
 7. [aria2](https://aria2.github.io/) downloader supporting >1 parallel connections to download same file
 8. [nmap](https://nmap.org/) Port scanning utility
-9. [WireShark](https://www.wireshark.org/#download)
+9. [youtube-dl](https://rg3.github.io/youtube-dl/)
 
 ## Browser Extensions ##
 
 ### Firefox ###
+- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - [Ghostery – Privacy Ad Blocker](https://addons.mozilla.org/en-US/firefox/addon/ghostery/)
 - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
-- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
-- [Snooze Tabs](https://addons.mozilla.org/en-US/firefox/addon/snoozetabs)
 - [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 - [Redux DevTools](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+- [Snooze Tabs](https://addons.mozilla.org/en-US/firefox/addon/snoozetabs)
 - [org-link](https://addons.mozilla.org/en-US/firefox/addon/org-link/)
 
 ### Chrome ###
@@ -143,22 +142,11 @@ Windows binaries where not available so, you had to download from ~~[here](https
 
 ## Windows Only ##
 
-1. [Git for Windows](https://git-scm.com/download/)
-2. [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-3. [PuTTY](http://www.putty.org/), [PuTTY-64](https://blog.splunk.net/64bit-putty/)
-4. [WinMerge](http://winmerge.org/downloads/?lang=en)
-5. [TreeSize Free](http://www.jam-software.com/treesize_free/)
-6. [IrfanView](http://www.irfanview.com/)
-7. [wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm)
-8. [7-Zip](http://www.7-zip.org/)
-9. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
-10. [ConEmu](http://conemu.github.io/en/index.html) (or alternatively [cmdr](https://cmder.net/))
-    Tabbed command line support for git-bash
-11. [Figlet in Go for Windows](https://github.com/lukesampson/figlet)
-    ASCII art from the command line
-12. [CamStudio](http://camstudio.org/)
+
+1. [7-Zip](http://www.7-zip.org/)
+2. [CamStudio](http://camstudio.org/)
     OpenSource desktop screen recorder
-13. [Chocolatey](https://chocolatey.org/)
+3. [Chocolatey](https://chocolatey.org/)
     OpenSource package manager for windows. Add the following lines to
     the installer to use the proxy and install in a custom location
 
@@ -167,3 +155,15 @@ Windows binaries where not available so, you had to download from ~~[here](https
 	$env:ChocolateyInstall = "e:\software\chocolatey"
 	```
 
+4. [ConEmu](http://conemu.github.io/en/index.html) (or alternatively [cmdr](https://cmder.net/))
+    Tabbed command line support for git-bash
+5. [Eclipse IDE](https://www.eclipse.org/downloads/eclipse-packages/)
+6. [Figlet in Go for Windows](https://github.com/lukesampson/figlet)
+    ASCII art from the command line
+7. [Git for Windows](https://git-scm.com/download/)
+8. [IrfanView](http://www.irfanview.com/)
+9. [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+10. [PuTTY](http://www.putty.org/), [PuTTY-64](https://blog.splunk.net/64bit-putty/)
+11. [TreeSize Free](http://www.jam-software.com/treesize_free/)
+12. [WinMerge](http://winmerge.org/downloads/?lang=en)
+13. [wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm)
